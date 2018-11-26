@@ -31,6 +31,12 @@
         android:title="@string/goto_date"
         app:showAsAction="never" />
     <item
+        android:id="@+id/action_list_events"
+        android:alphabeticShortcut="le"
+        android:orderInCategory="5"
+        android:title="List Events"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_refresh"
         android:alphabeticShortcut="r"
         android:icon="@drawable/ic_menu_refresh"
