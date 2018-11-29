@@ -1,4 +1,4 @@
-include ':external:calendar'
+include ':external:calendar', ':myapplication', ':calendar2', ':myapplication2', ':etarcalendar', ':myapplication3', ':myapplication4', ':myapplication5', ':myapplication6', ':myapplication7'
 include ':external:colorpicker'
 include ':external:datetimepicker'
 include ':external:timezonepicker'
