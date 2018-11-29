@@ -119,6 +119,9 @@
          Month view. -->
     <string name="month_view">"Month"</string>
     <!-- This is a label on a menu item. Pressing this menu item displays the
+         Year view. -->
+    <string name="year_view">"Year"</string>
+    <!-- This is a label on a menu item. Pressing this menu item displays the
          details of an event. -->
     <string name="event_view">"View event"</string>
     <!-- This is a label on a menu item. Pressing this menu item allows the
