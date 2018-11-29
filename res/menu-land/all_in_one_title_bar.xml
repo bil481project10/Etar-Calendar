@@ -52,4 +52,5 @@
         android:alphabeticShortcut="h"
         android:title="@string/hide_controls"
         app:showAsAction="never" />
+
 </menu>

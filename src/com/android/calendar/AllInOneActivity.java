@@ -888,7 +888,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     selectedTime.year = year;
                     selectedTime.month = monthOfYear;
                     selectedTime.monthDay = dayOfMonth;
-                    long extras = CalendarController.EXTRA_GOTO_TIME | CalendarController.EXTRA_GOTO_DATE;
+                    long extras = CalendarController.EXTRA_GOTO_TIME | CalendarController.EXTRA_GOTO_DATE
                     mController.sendEvent(this, EventType.GO_TO, selectedTime, null, selectedTime, -1, ViewType.CURRENT, extras, null, null);
                 }
             }, t.year, t.month, t.monthDay);
@@ -1487,5 +1487,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                         }
                     }, null);
         }
+
+
     }
 }

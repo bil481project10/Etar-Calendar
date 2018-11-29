@@ -25,6 +25,7 @@ import android.app.AlertDialog;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.ContentUris;
+import android.widget.Toast;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
@@ -3099,6 +3100,7 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
                 && mSelectionMode != SELECTION_HIDDEN) {
             computeNeighbors();
         }
+
     }
 
     // Computes the "nearest" neighbor event in four directions (left, right,
