@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.3'
+        classpath 'com.android.tools.build:gradle:3.2.1'
     }
 }
 
@@ -181,6 +181,7 @@ dependencies {
     implementation project(':external:datetimepicker')
     implementation project(':external:timezonepicker')
     implementation project(':external:chips')
+    compile 'com.github.ik024:calendar-lib:2.0.2'
 }
 
 android {
