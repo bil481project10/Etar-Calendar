@@ -52,6 +52,7 @@ public class CalendarViewAdapter extends BaseAdapter {
     public static final int WEEK_BUTTON_INDEX = 1;
     public static final int MONTH_BUTTON_INDEX = 2;
     public static final int AGENDA_BUTTON_INDEX = 3;
+    public static final int YEAR_BUTTON_INDEX = 4;
     static final int VIEW_TYPE_NUM = 1;  // Increase this if you add more view types
     private static final String TAG = "MenuSpinnerAdapter";
     // Defines the types of view returned by this spinner

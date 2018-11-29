@@ -282,7 +282,7 @@ public class CalendarController {
         } else if (event.viewType != ViewType.EDIT) {
             mViewType = event.viewType;
 
-            if (event.viewType == ViewType.AGENDA || event.viewType == ViewType.DAY
+            if (event.viewType == ViewType.AGENDA || event.viewType == ViewType.DAY || event.viewType == ViewType.YEAR
                     || (Utils.getAllowWeekForDetailView() && event.viewType == ViewType.WEEK)) {
                 mDetailViewType = mViewType;
             }
@@ -753,6 +753,7 @@ public class CalendarController {
         final int MONTH = 4;
         final int EDIT = 5;
         final int MAX_VALUE = 5;
+        final int YEAR = 6;
     }
 
     public interface EventHandler {
