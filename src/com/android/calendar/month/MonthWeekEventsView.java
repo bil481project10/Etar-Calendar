@@ -750,6 +750,29 @@ public class MonthWeekEventsView extends SimpleWeekView {
                 }
                 eventCount++;
                 ySquare = newY;
+
+            class MyUndoListener implements OnClickListener{
+
+                @Override
+                public void onClick(View v) {
+
+                    // Code to undo the user's last action
+                }
+            }
+            String my_events="";
+            iter = eventDay.iterator();
+            while (iter.hasNext()) {
+                Event event = iter.next();
+                for (int i = 0;i<eventCount;i++) {
+                    my_events=my_events+"/nEtkinlik : "+ event.title+event.startTime;
+                    if(iter.hasNext())
+                        event=iter.next();
+                }
+            }
+            Snackbar mySnackbar=Snackbar.make(findViewById(R.id.action_list_events), my_events,Snackbar.LENGTH_SHORT);
+            mySnackbar.setAction("undo", new MyUndoListener());
+            mySnackbar.show();
+
             }
 
             int remaining = eventDay.size() - eventCount;
