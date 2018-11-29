@@ -21,7 +21,8 @@
     package="ws.xsoh.etar"
     android:installLocation="auto"
     android:versionCode="15"
-    android:versionName="1.0.13">
+    android:versionName="1.0.13"
+    xmlns:tools="http://schemas.android.com/tools">
 <!--         android:sharedUserLabel="@string/app_label"> -->
 
     <!--
@@ -50,7 +51,8 @@
         android:taskAffinity="ws.xsoh.etar.task"
         android:requiredAccountType="*"
         android:usesCleartextTraffic="false"
-        android:theme="@style/CalendarAppTheme">
+        android:theme="@style/CalendarAppTheme"
+        tools:replace="android:label">
 
         <activity
             android:name="com.android.calendar.AllInOneActivity"
