@@ -751,7 +751,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                 eventCount++;
                 ySquare = newY;
 
-            class MyUndoListener implements OnClickListener{
+             class MyUndoListener implements View.OnClickListener{
 
                 @Override
                 public void onClick(View v) {
@@ -769,7 +769,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                         event=iter.next();
                 }
             }
-            Snackbar mySnackbar=Snackbar.make(findViewById(R.id.action_list_events), my_events,Snackbar.LENGTH_SHORT);
+            Snackbar mySnackbar=Snackbar.make(findViewById(R.id.myCoordinatorLayout), my_events,Snackbar.LENGTH_SHORT);
             mySnackbar.setAction("undo", new MyUndoListener());
             mySnackbar.show();
 
