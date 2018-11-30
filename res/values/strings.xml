@@ -775,5 +775,4 @@
 
     <string name="user_rejected_calendar_write_permission">Etar requires calendar read and write permissions to work properly. Please try again.</string>
     <string name="calendar_permission_not_granted">Sorry this feature can\'t work. Etar requires calendar read and write permissions to work properly</string>
-    <string name="hide_controls_events" />
 </resources>
