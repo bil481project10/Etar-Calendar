@@ -82,6 +82,7 @@ import com.android.calendar.CalendarController.ViewType;
 import com.android.calendar.agenda.AgendaFragment;
 import com.android.calendar.month.MonthByWeekFragment;
 import com.android.calendar.selectcalendars.SelectVisibleCalendarsFragment;
+import com.android.calendar.year.YearFragment;
 import com.android.datetimepicker.date.DatePickerDialog;
 
 import java.io.File;
@@ -161,7 +162,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         }
 
         @Override
-        public void onAnimationEnd(android.animation.Animator animation) {
+        public void onAnimationEnd(Animator animation) {
             int visibility = mShowSideViews ? View.VISIBLE : View.GONE;
             mMiniMonth.setVisibility(visibility);
             mCalendarsList.setVisibility(visibility);
@@ -169,11 +170,11 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         }
 
         @Override
-        public void onAnimationRepeat(android.animation.Animator animation) {
+        public void onAnimationRepeat(Animator animation) {
         }
 
         @Override
-        public void onAnimationStart(android.animation.Animator animation) {
+        public void onAnimationStart(Animator animation) {
         }
     };
     private FloatingActionButton mFab;
@@ -371,7 +372,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         mHomeTime = (TextView) findViewById(R.id.home_time);
         mMiniMonth = findViewById(R.id.mini_month);
         if (mIsTabletConfig && mOrientation == Configuration.ORIENTATION_PORTRAIT) {
-            mMiniMonth.setLayoutParams(new RelativeLayout.LayoutParams(mControlsAnimateWidth,
+            mMiniMonth.setLayoutParams(new LayoutParams(mControlsAnimateWidth,
                     mControlsAnimateHeight));
         }
         mCalendarsList = findViewById(R.id.calendar_list);
@@ -459,6 +460,9 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     break;
                 case ViewType.MONTH:
                     titleResource = R.string.month_view;
+                    break;
+                case ViewType.YEAR:
+                    titleResource = R.string.year_view;
                     break;
                 case ViewType.WEEK:
                 default:
@@ -584,7 +588,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             return;
         }
 
-        mContentResolver.registerContentObserver(CalendarContract.Events.CONTENT_URI,
+        mContentResolver.registerContentObserver(Events.CONTENT_URI,
                 true, mObserver);
         if (mUpdateOnResume) {
             initFragments(mController.getTime(), mController.getViewType(), null);
@@ -946,6 +950,11 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     mController.sendEvent(this, EventType.GO_TO, null, null, -1, ViewType.AGENDA);
                 }
                 break;
+            case R.id.year_menu_item:
+                if (mCurrentView != ViewType.YEAR) {
+                    mController.sendEvent(this, EventType.GO_TO, null, null, -1, ViewType.YEAR);
+                }
+                break;
             case R.id.action_select_visible_calendars:
                 mController.sendEvent(this, EventType.LAUNCH_SELECT_VISIBLE_CALENDARS, null, null,
                         0, 0);
@@ -1050,6 +1059,13 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                 }
                 if (mIsTabletConfig) {
                     mToolbar.setTitle(R.string.month_view);
+                }
+                break;
+            case ViewType.YEAR:
+                mNavigationView.getMenu().findItem(R.id.year_menu_item).setChecked(true);
+                frag = new YearFragment();
+                if (mIsTabletConfig) {
+                    mToolbar.setTitle(R.string.year_view);
                 }
                 break;
             case ViewType.WEEK:
@@ -1408,6 +1424,11 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             case CalendarViewAdapter.AGENDA_BUTTON_INDEX:
                 if (mCurrentView != ViewType.AGENDA) {
                     mController.sendEvent(this, EventType.GO_TO, null, null, -1, ViewType.AGENDA);
+                }
+                break;
+            case CalendarViewAdapter.YEAR_BUTTON_INDEX:
+                if (mCurrentView != ViewType.AGENDA) {
+                    mController.sendEvent(this, EventType.GO_TO, null, null, -1, ViewType.YEAR);
                 }
                 break;
             default:

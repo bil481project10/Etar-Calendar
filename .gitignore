@@ -30,3 +30,15 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+calendar2/
+etarcalendar/
+*.iml
+myapplication/
+myapplication2/
+myapplication3/
+myapplication4/
+myapplication5/
+myapplication6/
+myapplication7/
+.idea/
