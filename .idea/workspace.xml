@@ -11,120 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f722d109-0eda-41b1-9333-c6027290d847" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_mediarouter_v7_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_23_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_23_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Etar-Calendar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/myapplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/java/com/example/myapplication/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapplication/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="f684a965-8f17-44d2-b013-52b29a5a03aa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/res/layout/events.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/calendar" beforeDir="false" afterPath="$PROJECT_DIR$/external/calendar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/chips" beforeDir="false" afterPath="$PROJECT_DIR$/external/chips" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/colorpicker" beforeDir="false" afterPath="$PROJECT_DIR$/external/colorpicker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/datetimepicker" beforeDir="false" afterPath="$PROJECT_DIR$/external/datetimepicker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/external.iml" beforeDir="false" afterPath="$PROJECT_DIR$/external/external.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/external/timezonepicker" beforeDir="false" afterPath="$PROJECT_DIR$/external/timezonepicker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/menu-land/all_in_one_title_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/menu-land/all_in_one_title_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new" beforeDir="false" afterPath="$PROJECT_DIR$/new" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/android/calendar/CalendarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/android/calendar/CalendarController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/android/calendar/DayView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/android/calendar/DayView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -147,90 +48,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllInOneActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AllInOneActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="1491" column="5" selection-start-line="1491" selection-start-column="5" selection-end-line="1491" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
+              <folding>
+                <element signature="e#60800#60801#0" expanded="true" />
+                <element signature="e#60828#60829#0" expanded="true" />
+                <element signature="e#62689#62690#0" expanded="true" />
+                <element signature="e#62717#62718#0" expanded="true" />
+                <element signature="e#65249#65250#0" expanded="true" />
+                <element signature="e#65279#65280#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar_view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/calendar_view.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state />
+      <file leaf-file-name="DayView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DayView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayView.java">
+      <file leaf-file-name="MonthWeekEventsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="3102" selection-start-line="3102" selection-end-line="3102" />
+            <state relative-caret-position="187">
+              <caret line="751" column="50" selection-start-line="751" selection-start-column="50" selection-end-line="751" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#16141#16148#0" expanded="true" />
-                <element signature="e#18571#18927#0" expanded="true" />
-                <element signature="e#18926#18927#0" expanded="true" />
-                <element signature="e#19730#19990#0" expanded="true" />
-                <element signature="e#19989#19990#0" expanded="true" />
-                <element signature="e#20635#20760#0" expanded="true" />
-                <element signature="e#20759#20760#0" expanded="true" />
-                <element signature="e#20822#20829#0" expanded="true" />
-                <element signature="e#20899#20906#0" expanded="true" />
-                <element signature="e#21255#21853#0" expanded="true" />
-                <element signature="e#21852#21853#0" expanded="true" />
-                <element signature="e#27622#27665#0" expanded="true" />
-                <element signature="e#27697#27751#0" expanded="true" />
-                <element signature="e#27820#27874#0" expanded="true" />
-                <element signature="e#27913#27965#0" expanded="true" />
-                <element signature="e#28005#28059#0" expanded="true" />
-                <element signature="e#28102#28159#0" expanded="true" />
-                <element signature="e#28206#28260#0" expanded="true" />
-                <element signature="e#28294#28342#0" expanded="true" />
-                <element signature="e#28376#28424#0" expanded="true" />
-                <element signature="e#28460#28510#0" expanded="true" />
-                <element signature="e#28547#28598#0" expanded="true" />
-                <element signature="e#28640#28690#0" expanded="true" />
-                <element signature="e#28780#28812#0" expanded="true" />
-                <element signature="e#28861#28894#0" expanded="true" />
-                <element signature="e#29026#29083#0" expanded="true" />
-                <element signature="e#29112#29161#0" expanded="true" />
-                <element signature="e#29264#29323#0" expanded="true" />
-                <element signature="e#29552#29630#0" expanded="true" />
-                <element signature="e#32876#32930#0" expanded="true" />
-                <element signature="e#32968#33021#0" expanded="true" />
-                <element signature="e#75264#75321#0" expanded="true" />
-                <element signature="e#86054#86061#0" expanded="true" />
-                <element signature="e#86144#88047#0" expanded="true" />
-                <element signature="e#88046#88047#0" expanded="true" />
-                <element signature="e#125003#125077#0" expanded="true" />
-                <element signature="e#159412#159859#0" expanded="true" />
-                <element signature="e#159858#159859#0" expanded="true" />
-                <element signature="e#180725#180744#0" expanded="true" />
-                <element signature="e#181085#181104#0" expanded="true" />
-                <element signature="e#181439#181460#0" expanded="true" />
-                <element signature="e#181682#181703#0" expanded="true" />
-                <element signature="e#182121#182142#0" expanded="true" />
-                <element signature="e#182580#182599#0" expanded="true" />
-                <element signature="e#182940#182959#0" expanded="true" />
-                <element signature="e#183294#183315#0" expanded="true" />
-                <element signature="e#183547#183568#0" expanded="true" />
-                <element signature="e#183785#183807#0" expanded="true" />
-                <element signature="e#195255#196059#0" expanded="true" />
-                <element signature="e#196058#196059#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleWeekView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/SimpleWeekView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SEARCH</find>
+      <find>mShowAllAllDayEvents</find>
+      <find>toast</find>
+      <find>EXTRA_GOTO_DATE</find>
+      <find>computeNeighbors();</find>
+      <find>numEvents</find>
+      <find>Toast</find>
+      <find>show()</find>
+      <find>display</find>
+      <find>GOTO</find>
+      <find>GOTO_DAY</find>
+      <find>display=true;</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -8145,12 +8029,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/android/calendar/CalendarController.java" />
+        <option value="$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml" />
+        <option value="$PROJECT_DIR$/res/layout/events.xml" />
+        <option value="$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java" />
         <option value="$PROJECT_DIR$/src/com/android/calendar/DayView.java" />
+        <option value="$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -8161,46 +8049,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="Etar-Calendar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="calendar" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Etar-Calendar" type="1abcf292:AndroidViewProjectNode" />
               <item name="Etar-Calendar" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Etar-Calendar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Etar-Calendar" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Etar-Calendar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Etar-Calendar" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Etar-Calendar" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Etar-Calendar" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="Nexus_5X_API_28" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Etar-Calendar-master" />
+    <property name="device.picker.selection" value="Pixel_API_28_7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -8372,16 +8240,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f722d109-0eda-41b1-9333-c6027290d847" name="Default" comment="" />
-      <created>1542918096892</created>
+      <changelist id="f684a965-8f17-44d2-b013-52b29a5a03aa" name="Default" comment="" />
+      <created>1543849114799</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542918096892</updated>
+      <updated>1543849114799</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -8389,28 +8258,29 @@
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021962" side_tool="true" visible="true" weight="0.31653544" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.32980332" side_tool="true" visible="true" weight="0.19771242" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Logcat" order="7" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24158126" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4978038" visible="true" weight="0.31653544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.67019665" visible="true" weight="0.19771242" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -8420,209 +8290,251 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25500">
-          <caret line="1500" column="1" selection-start-line="1500" selection-start-column="1" selection-end-line="1500" selection-end-column="1" />
+        <state relative-caret-position="15963">
+          <caret line="939" column="29" lean-forward="true" selection-start-line="939" selection-start-column="29" selection-end-line="939" selection-end-column="29" />
+          <folding>
+            <element signature="e#60800#60801#0" expanded="true" />
+            <element signature="e#60828#60829#0" expanded="true" />
+            <element signature="e#62689#62690#0" expanded="true" />
+            <element signature="e#62717#62718#0" expanded="true" />
+            <element signature="e#65249#65250#0" expanded="true" />
+            <element signature="e#65279#65280#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayView.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/events.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52819">
-          <caret line="3107" column="32" selection-start-line="3107" selection-start-column="32" selection-end-line="3107" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12070">
+          <caret line="764" column="28" selection-start-line="764" selection-start-column="28" selection-end-line="764" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16141#16148#0" expanded="true" />
-            <element signature="e#18571#18927#0" expanded="true" />
-            <element signature="e#18926#18927#0" expanded="true" />
-            <element signature="e#19730#19990#0" expanded="true" />
-            <element signature="e#19989#19990#0" expanded="true" />
-            <element signature="e#20635#20760#0" expanded="true" />
-            <element signature="e#20759#20760#0" expanded="true" />
-            <element signature="e#20822#20829#0" expanded="true" />
-            <element signature="e#20899#20906#0" expanded="true" />
-            <element signature="e#21255#21853#0" expanded="true" />
-            <element signature="e#21852#21853#0" expanded="true" />
-            <element signature="e#27622#27665#0" expanded="true" />
-            <element signature="e#27697#27751#0" expanded="true" />
-            <element signature="e#27820#27874#0" expanded="true" />
-            <element signature="e#27913#27965#0" expanded="true" />
-            <element signature="e#28005#28059#0" expanded="true" />
-            <element signature="e#28102#28159#0" expanded="true" />
-            <element signature="e#28206#28260#0" expanded="true" />
-            <element signature="e#28294#28342#0" expanded="true" />
-            <element signature="e#28376#28424#0" expanded="true" />
-            <element signature="e#28460#28510#0" expanded="true" />
-            <element signature="e#28547#28598#0" expanded="true" />
-            <element signature="e#28640#28690#0" expanded="true" />
-            <element signature="e#28780#28812#0" expanded="true" />
-            <element signature="e#28861#28894#0" expanded="true" />
-            <element signature="e#29026#29083#0" expanded="true" />
-            <element signature="e#29112#29161#0" expanded="true" />
-            <element signature="e#29264#29323#0" expanded="true" />
-            <element signature="e#29552#29630#0" expanded="true" />
-            <element signature="e#32876#32930#0" expanded="true" />
-            <element signature="e#32968#33021#0" expanded="true" />
-            <element signature="e#75264#75321#0" expanded="true" />
-            <element signature="e#86054#86061#0" expanded="true" />
-            <element signature="e#86144#88047#0" expanded="true" />
-            <element signature="e#88046#88047#0" expanded="true" />
-            <element signature="e#125003#125077#0" expanded="true" />
-            <element signature="e#159412#159859#0" expanded="true" />
-            <element signature="e#159858#159859#0" expanded="true" />
-            <element signature="e#180725#180744#0" expanded="true" />
-            <element signature="e#181085#181104#0" expanded="true" />
-            <element signature="e#181439#181460#0" expanded="true" />
-            <element signature="e#181682#181703#0" expanded="true" />
-            <element signature="e#182121#182142#0" expanded="true" />
-            <element signature="e#182580#182599#0" expanded="true" />
-            <element signature="e#182940#182959#0" expanded="true" />
-            <element signature="e#183294#183315#0" expanded="true" />
-            <element signature="e#183547#183568#0" expanded="true" />
-            <element signature="e#183785#183807#0" expanded="true" />
-            <element signature="e#195255#196059#0" expanded="true" />
-            <element signature="e#196058#196059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/SimpleWeekView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10625">
+          <caret line="691" column="28" selection-start-line="691" selection-start-column="28" selection-end-line="691" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13515">
+          <caret line="896" column="33" selection-start-line="896" selection-start-column="33" selection-end-line="896" selection-end-column="33" />
+          <folding>
+            <element signature="e#60800#60801#0" expanded="true" />
+            <element signature="e#60828#60829#0" expanded="true" />
+            <element signature="e#62689#62690#0" expanded="true" />
+            <element signature="e#62717#62718#0" expanded="true" />
+            <element signature="e#65249#65250#0" expanded="true" />
+            <element signature="e#65279#65280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/SimpleWeekView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10625">
+          <caret line="691" column="28" selection-start-line="691" selection-start-column="28" selection-end-line="691" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12716">
+          <caret line="748" column="80" selection-start-line="748" selection-start-column="80" selection-end-line="748" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25500">
-          <caret line="1500" column="1" selection-start-line="1500" selection-start-column="1" selection-end-line="1500" selection-end-column="1" />
+        <state relative-caret-position="13515">
+          <caret line="896" column="33" selection-start-line="896" selection-start-column="33" selection-end-line="896" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/SimpleWeekView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10625">
+          <caret line="691" column="28" selection-start-line="691" selection-start-column="28" selection-end-line="691" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12648">
+          <caret line="744" selection-start-line="744" selection-end-line="744" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-27/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="1942" column="19" selection-start-line="1942" selection-start-column="19" selection-end-line="1942" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarSettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayOfMonthCursor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2117">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/SimpleWeekView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/agenda_day.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/events.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/all_in_one_title_bar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/CalendarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10625">
+          <caret line="691" column="28" selection-start-line="691" selection-start-column="28" selection-end-line="691" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/month/MonthWeekEventsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="751" column="50" selection-start-line="751" selection-start-column="50" selection-end-line="751" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52819">
-          <caret line="3107" column="32" selection-start-line="3107" selection-start-column="32" selection-end-line="3107" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16141#16148#0" expanded="true" />
-            <element signature="e#18571#18927#0" expanded="true" />
-            <element signature="e#18926#18927#0" expanded="true" />
-            <element signature="e#19730#19990#0" expanded="true" />
-            <element signature="e#19989#19990#0" expanded="true" />
-            <element signature="e#20635#20760#0" expanded="true" />
-            <element signature="e#20759#20760#0" expanded="true" />
-            <element signature="e#20822#20829#0" expanded="true" />
-            <element signature="e#20899#20906#0" expanded="true" />
-            <element signature="e#21255#21853#0" expanded="true" />
-            <element signature="e#21852#21853#0" expanded="true" />
-            <element signature="e#27622#27665#0" expanded="true" />
-            <element signature="e#27697#27751#0" expanded="true" />
-            <element signature="e#27820#27874#0" expanded="true" />
-            <element signature="e#27913#27965#0" expanded="true" />
-            <element signature="e#28005#28059#0" expanded="true" />
-            <element signature="e#28102#28159#0" expanded="true" />
-            <element signature="e#28206#28260#0" expanded="true" />
-            <element signature="e#28294#28342#0" expanded="true" />
-            <element signature="e#28376#28424#0" expanded="true" />
-            <element signature="e#28460#28510#0" expanded="true" />
-            <element signature="e#28547#28598#0" expanded="true" />
-            <element signature="e#28640#28690#0" expanded="true" />
-            <element signature="e#28780#28812#0" expanded="true" />
-            <element signature="e#28861#28894#0" expanded="true" />
-            <element signature="e#29026#29083#0" expanded="true" />
-            <element signature="e#29112#29161#0" expanded="true" />
-            <element signature="e#29264#29323#0" expanded="true" />
-            <element signature="e#29552#29630#0" expanded="true" />
-            <element signature="e#32876#32930#0" expanded="true" />
-            <element signature="e#32968#33021#0" expanded="true" />
-            <element signature="e#75264#75321#0" expanded="true" />
-            <element signature="e#86054#86061#0" expanded="true" />
-            <element signature="e#86144#88047#0" expanded="true" />
-            <element signature="e#88046#88047#0" expanded="true" />
-            <element signature="e#125003#125077#0" expanded="true" />
-            <element signature="e#159412#159859#0" expanded="true" />
-            <element signature="e#159858#159859#0" expanded="true" />
-            <element signature="e#180725#180744#0" expanded="true" />
-            <element signature="e#181085#181104#0" expanded="true" />
-            <element signature="e#181439#181460#0" expanded="true" />
-            <element signature="e#181682#181703#0" expanded="true" />
-            <element signature="e#182121#182142#0" expanded="true" />
-            <element signature="e#182580#182599#0" expanded="true" />
-            <element signature="e#182940#182959#0" expanded="true" />
-            <element signature="e#183294#183315#0" expanded="true" />
-            <element signature="e#183547#183568#0" expanded="true" />
-            <element signature="e#183785#183807#0" expanded="true" />
-            <element signature="e#195255#196059#0" expanded="true" />
-            <element signature="e#196058#196059#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/calendar/AllInOneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="1491" column="5" selection-start-line="1491" selection-start-column="5" selection-end-line="1491" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/calendar_view.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/calendar/DayView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="3102" selection-start-line="3102" selection-end-line="3102" />
+        <state relative-caret-position="17">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#16141#16148#0" expanded="true" />
-            <element signature="e#18571#18927#0" expanded="true" />
-            <element signature="e#18926#18927#0" expanded="true" />
-            <element signature="e#19730#19990#0" expanded="true" />
-            <element signature="e#19989#19990#0" expanded="true" />
-            <element signature="e#20635#20760#0" expanded="true" />
-            <element signature="e#20759#20760#0" expanded="true" />
-            <element signature="e#20822#20829#0" expanded="true" />
-            <element signature="e#20899#20906#0" expanded="true" />
-            <element signature="e#21255#21853#0" expanded="true" />
-            <element signature="e#21852#21853#0" expanded="true" />
-            <element signature="e#27622#27665#0" expanded="true" />
-            <element signature="e#27697#27751#0" expanded="true" />
-            <element signature="e#27820#27874#0" expanded="true" />
-            <element signature="e#27913#27965#0" expanded="true" />
-            <element signature="e#28005#28059#0" expanded="true" />
-            <element signature="e#28102#28159#0" expanded="true" />
-            <element signature="e#28206#28260#0" expanded="true" />
-            <element signature="e#28294#28342#0" expanded="true" />
-            <element signature="e#28376#28424#0" expanded="true" />
-            <element signature="e#28460#28510#0" expanded="true" />
-            <element signature="e#28547#28598#0" expanded="true" />
-            <element signature="e#28640#28690#0" expanded="true" />
-            <element signature="e#28780#28812#0" expanded="true" />
-            <element signature="e#28861#28894#0" expanded="true" />
-            <element signature="e#29026#29083#0" expanded="true" />
-            <element signature="e#29112#29161#0" expanded="true" />
-            <element signature="e#29264#29323#0" expanded="true" />
-            <element signature="e#29552#29630#0" expanded="true" />
-            <element signature="e#32876#32930#0" expanded="true" />
-            <element signature="e#32968#33021#0" expanded="true" />
-            <element signature="e#75264#75321#0" expanded="true" />
-            <element signature="e#86054#86061#0" expanded="true" />
-            <element signature="e#86144#88047#0" expanded="true" />
-            <element signature="e#88046#88047#0" expanded="true" />
-            <element signature="e#125003#125077#0" expanded="true" />
-            <element signature="e#159412#159859#0" expanded="true" />
-            <element signature="e#159858#159859#0" expanded="true" />
-            <element signature="e#180725#180744#0" expanded="true" />
-            <element signature="e#181085#181104#0" expanded="true" />
-            <element signature="e#181439#181460#0" expanded="true" />
-            <element signature="e#181682#181703#0" expanded="true" />
-            <element signature="e#182121#182142#0" expanded="true" />
-            <element signature="e#182580#182599#0" expanded="true" />
-            <element signature="e#182940#182959#0" expanded="true" />
-            <element signature="e#183294#183315#0" expanded="true" />
-            <element signature="e#183547#183568#0" expanded="true" />
-            <element signature="e#183785#183807#0" expanded="true" />
-            <element signature="e#195255#196059#0" expanded="true" />
-            <element signature="e#196058#196059#0" expanded="true" />
+            <element signature="e#60800#60801#0" expanded="true" />
+            <element signature="e#60828#60829#0" expanded="true" />
+            <element signature="e#62689#62690#0" expanded="true" />
+            <element signature="e#62717#62718#0" expanded="true" />
+            <element signature="e#65249#65250#0" expanded="true" />
+            <element signature="e#65279#65280#0" expanded="true" />
           </folding>
         </state>
       </provider>

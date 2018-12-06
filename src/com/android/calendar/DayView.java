@@ -129,6 +129,7 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
         Calendars.CALENDAR_ACCESS_LEVEL, // 1
         Calendars.OWNER_ACCOUNT, // 2
     };
+    private static boolean display=AllInOneActivity.getDisplay();
     private static final int CALENDARS_INDEX_ACCESS_LEVEL = 1;
     private static final int CALENDARS_INDEX_OWNER_ACCOUNT = 2;
     private static final String CALENDARS_WHERE = Calendars._ID + "=%d";
@@ -3100,6 +3101,17 @@ public class DayView extends View implements View.OnCreateContextMenuListener,
                 && mSelectionMode != SELECTION_HIDDEN) {
             computeNeighbors();
         }
+        String sDate = AllInOneActivity.getSelectedDate();
+        android.support.v7.app.AlertDialog.Builder aDialog =
+                new android.support.v7.app.AlertDialog.Builder(getContext());
+        if(numEvents!=0) {
+            Toast.makeText(getContext(),"Number of events on the "+numEvents+"th day of this month is: ",
+                    Toast.LENGTH_LONG).show();
+        }
+        else{
+            Toast.makeText(getContext(),"No event for today "+numEvents,Toast.LENGTH_LONG).show();
+        }
+
 
     }
 

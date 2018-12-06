@@ -52,6 +52,7 @@ import android.provider.CalendarContract.Calendars;
 import android.provider.CalendarContract.Events;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MenuItemCompat;
@@ -81,6 +82,7 @@ import com.android.calendar.CalendarController.EventType;
 import com.android.calendar.CalendarController.ViewType;
 import com.android.calendar.agenda.AgendaFragment;
 import com.android.calendar.month.MonthByWeekFragment;
+import com.android.calendar.month.MonthWeekEventsView;
 import com.android.calendar.selectcalendars.SelectVisibleCalendarsFragment;
 import com.android.datetimepicker.date.DatePickerDialog;
 
@@ -100,6 +102,8 @@ import static android.provider.CalendarContract.EXTRA_EVENT_END_TIME;
 public class AllInOneActivity extends AbstractCalendarActivity implements EventHandler,
         OnSharedPreferenceChangeListener, SearchView.OnQueryTextListener, SearchView.OnSuggestionListener, NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "AllInOneActivity";
+    private static String selectedDate ="";
+    private static boolean display=false;
     private static final boolean DEBUG = false;
     private static final String EVENT_INFO_FRAGMENT_TAG = "EventInfoFragment";
     private static final String BUNDLE_KEY_RESTORE_TIME = "key_restore_time";
@@ -888,13 +892,41 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
                     selectedTime.year = year;
                     selectedTime.month = monthOfYear;
                     selectedTime.monthDay = dayOfMonth;
-                    long extras = CalendarController.EXTRA_GOTO_TIME | CalendarController.EXTRA_GOTO_DATE
+                    long extras = CalendarController.EXTRA_GOTO_TIME | CalendarController.EXTRA_GOTO_DATE;
+                    /*selectedDate = dayOfMonth+"/"+monthOfYear+"/"+year;
+                    display=false;*/
                     mController.sendEvent(this, EventType.GO_TO, selectedTime, null, selectedTime, -1, ViewType.CURRENT, extras, null, null);
                 }
             }, t.year, t.month, t.monthDay);
             datePickerDialog.show(getFragmentManager(), "datePickerDialog");
 
-        } else if (itemId == R.id.action_hide_controls) {
+        } else if (itemId == R.id.action_goto_day) {
+
+            Time todayTime;
+            t = new Time(mTimeZone);
+            t.set(mController.getTime());
+            todayTime = new Time(mTimeZone);
+            todayTime.setToNow();
+            if (todayTime.monthDay == t.monthDay) {
+                t = todayTime;
+            }
+
+            DatePickerDialog datePickerDialog = DatePickerDialog.newInstance(new DatePickerDialog.OnDateSetListener() {
+                @Override
+                public void onDateSet(DatePickerDialog dialog, int year, int monthOfYear, int dayOfMonth) {
+                    Time selectedTime = new Time(mTimeZone);
+                    selectedTime.year = year;
+                    selectedTime.month = monthOfYear;
+                    selectedTime.monthDay = dayOfMonth;
+                    long extras = CalendarController.EXTRA_GOTO_DATE | CalendarController.EXTRA_GOTO_DATE;
+                    selectedDate = dayOfMonth+"/"+monthOfYear+"/"+year;
+                    display=true;
+                    mController.sendEvent(this, EventType.GO_TO, selectedTime, null, selectedTime, -1, ViewType.DAY, extras, null, null);
+                }
+            }, t.year, t.month, t.monthDay);
+            datePickerDialog.show(getFragmentManager(), "datePickerDialog");
+        }
+        else if (itemId == R.id.action_hide_controls) {
             mHideControls = !mHideControls;
             Utils.setSharedPreference(
                     this, GeneralPreferences.KEY_SHOW_CONTROLS, !mHideControls);
@@ -915,7 +947,14 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             return false;
         } else if (itemId == R.id.action_import) {
             ImportActivity.pickImportFile(this);
-        } else {
+        }
+         else if (itemId == R.id.action_list_events ){
+            String get_events=MonthWeekEventsView.my_events;
+           /* Snackbar.make(findViewById(R.id.myCoordinatorLayout), get_events,
+                    Snackbar.LENGTH_SHORT)
+                    .show();*/
+            Toast.makeText(this,get_events,Toast.LENGTH_SHORT).show();
+         }else {
             return mExtensions.handleItemSelected(item, this);
         }
         mController.sendEvent(this, EventType.GO_TO, t, null, t, -1, viewType, extras, null, null);
@@ -1489,5 +1528,10 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
         }
 
 
+    }
+    public static String getSelectedDate(){
+        return selectedDate;
+    }public static boolean getDisplay(){
+        return display;
     }
 }

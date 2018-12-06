@@ -25,12 +25,6 @@
         android:title="@string/goto_today"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_goto"
-        android:alphabeticShortcut="g"
-        android:orderInCategory="2"
-        android:title="@string/goto_date"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/action_refresh"
         android:alphabeticShortcut="r"
         android:icon="@drawable/ic_menu_refresh"
@@ -47,6 +41,12 @@
         app:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="never|collapseActionView" />
     <item
+        android:id="@+id/action_list_events"
+        android:alphabeticShortcut="le"
+        android:orderInCategory="5"
+        android:title="List Events"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_import"
         android:alphabeticShortcut="i"
         android:title="@string/cal_import_menu_title"
@@ -54,9 +54,13 @@
         app:showAsAction="never"
         android:orderInCategory="7" />
     <item
-        android:id="@+id/action_nextEvent"
+        android:id="@+id/action_goto_day"
         android:orderInCategory="3"
-        android:title="Go to next Event"
-        app:showAsAction="never"
-        />
+        android:title="Go to day"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_goto"
+        android:alphabeticShortcut="g"
+        android:orderInCategory="8"
+        android:title="@string/goto_date" />
 </menu>

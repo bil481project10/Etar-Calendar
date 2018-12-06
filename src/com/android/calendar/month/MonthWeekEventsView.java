@@ -44,6 +44,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -56,7 +57,7 @@ import java.util.Locale;
 import ws.xsoh.etar.R;
 
 public class MonthWeekEventsView extends SimpleWeekView {
-
+    public static String my_events="";
     public static final String VIEW_PARAMS_ORIENTATION = "orientation";
     public static final String VIEW_PARAMS_ANIMATE_TODAY = "animate_today";
     private static final String TAG = "MonthView";
@@ -741,6 +742,33 @@ public class MonthWeekEventsView extends SimpleWeekView {
 
             int eventCount = 0;
             iter = eventDay.iterator();
+
+           /* while (iter.hasNext()) {
+                Event event = iter.next();
+                if(eventCount==0)
+                    Toast.makeText(getContext(),"No event for today "+eventCount,Toast.LENGTH_LONG).show();
+                else
+                    Toast.makeText(getContext(),"Number of events on the "+(event.startDay-2458058)+"th day of this month is: "+eventCount,
+                        Toast.LENGTH_LONG).show();
+                for (int i = 0;i<eventCount;i++) {
+                    Toast.makeText(getContext(), "Event Title " +(i+1)+": "+ event.title,
+                            Toast.LENGTH_SHORT).show();
+                    if(iter.hasNext())
+                        event=iter.next();
+                }*/
+
+
+            iter = eventDay.iterator();
+            while (iter.hasNext()) {
+                Event event = iter.next();
+                for (int i = 0;i<eventCount;i++) {
+                    my_events=my_events+"/nEvent on "+event.startDay+" is:" +event.title+" between"+event.startTime+"-"+event.endTime;
+                    if(iter.hasNext())
+                        event=iter.next();
+                }
+            }
+
+
             while (iter.hasNext()) {
                 Event event = iter.next();
                 int newY = drawEvent(canvas, event, xSquare, ySquare, rightEdge, iter.hasNext(),

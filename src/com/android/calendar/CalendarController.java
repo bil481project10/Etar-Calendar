@@ -444,6 +444,7 @@ public class CalendarController {
                 launchSearch(event.id, event.query, event.componentName);
                 return;
             }
+
         }
     }
 
@@ -687,7 +688,10 @@ public class CalendarController {
             tmp = "Gone home";
         } else if ((eventInfo.eventType & EventType.UPDATE_TITLE) != 0) {
             tmp = "Update title";
+        } else if ((eventInfo.eventType & EventType.GOTO_DAY) != 0) {
+            tmp = "Go to day ";
         }
+
         builder.append(tmp);
         builder.append(": id=");
         builder.append(eventInfo.id);
@@ -739,6 +743,7 @@ public class CalendarController {
 
         // select which calendars to display
         final long LAUNCH_SELECT_VISIBLE_CALENDARS = 1L << 11;
+       final  long GOTO_DAY = 1L << 5 ;
     }
 
     /**
