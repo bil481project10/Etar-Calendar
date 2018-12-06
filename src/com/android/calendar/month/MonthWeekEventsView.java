@@ -759,7 +759,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                     // Code to undo the user's last action
                 }
             }
-            String my_events="";
+          
             iter = eventDay.iterator();
             while (iter.hasNext()) {
                 Event event = iter.next();
@@ -769,9 +769,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
                         event=iter.next();
                 }
             }
-            Snackbar mySnackbar=Snackbar.make(findViewById(R.id.myCoordinatorLayout), my_events,Snackbar.LENGTH_SHORT);
-            mySnackbar.setAction("undo", new MyUndoListener());
-            mySnackbar.show();
+      
 
             }
 

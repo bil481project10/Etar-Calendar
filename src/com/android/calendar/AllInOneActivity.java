@@ -871,7 +871,14 @@ public class AllInOneActivity extends AbstractCalendarActivity implements EventH
             t = new Time(mTimeZone);
             t.setToNow();
             extras |= CalendarController.EXTRA_GOTO_TODAY;
-        } else if (itemId == R.id.action_goto) {
+        } 
+
+       else if(itemId==R.id.action_list_events) {
+
+          String get_events=MonthWeekEventsView.my_events;
+            Snackbar.make(findViewById(R.id.myCoordinatorLayout), get_events_events,Snackbar.LENGTH_SHORT).show();
+        }
+        else if (itemId == R.id.action_goto) {
             Time todayTime;
             t = new Time(mTimeZone);
             t.set(mController.getTime());
